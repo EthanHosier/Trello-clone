@@ -26,10 +26,8 @@ export const useAction = <TInput, TOutput>(
         const result = await action(input);
         if (!result) return;
 
-        if (result.fieldErrors) {
-          setFieldErrors(result.fieldErrors);
-        }
-
+        setFieldErrors(result.fieldErrors); // always update, regardless if exist or not (so clear now)
+        
         if (result.error) {
           setError(result.error);
           options.onError?.(result.error);
