@@ -1,3 +1,5 @@
+//maintains state of mobile sidebar (so closes when open new url etc)
+
 import { create } from "zustand"
 
 type MobileSidebarStore = {
