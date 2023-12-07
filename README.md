@@ -1,8 +1,12 @@
+# Fullstack Trello Clone: Next.js 14, Server Actions, React, Prisma, Stripe, Tailwind, MySQL
+
+[https://trello-clone-alpha-hazel.vercel.app/](https://trello-clone-alpha-hazel.vercel.app/)
+
 Key Features:
 - Auth 
 - Organizations / Workspaces
 - Board creation
-- Unsplash API for random beautiful cover images
+- Unsplash API for random cover images
 - Activity log for entire organization
 - Board rename and delete
 - List creation
